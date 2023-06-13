@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Games</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="banner">
+        <nav>
+          <a href="homepage.html">
+            <img src="logo.png" class="logo">
+          </a>
+            <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="index.html">Index</a></li>
+              <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+          </nav>
+      <div class="content">
+        <center>
+          <h1>GAMESTUDIO</h1>
+        </center>
+        <br><br>
+        <div class="games-container">
+          <div class="game-item">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/691/497/original/rock-paper-scissors-neon-icons-vector.jpg" alt="Rock Paper Scissors">
+            <h3>Rock Paper Scissors</h3>
+            <button class="play-button" data-game="rock-paper-scissors" onclick="window.location.href='rockPaperScissors.html'">Play Now</button>
+          </div>
+          <div class="game-item">
+            <img src= "https://previews.123rf.com/images/vectorgalaxy/vectorgalaxy1805/vectorgalaxy180500839/101157136-tic-tac-toe-logo-isolated-on-white-background-for-your-web-and-mobile-app-design-colorful-vector.jpg" alt="Chess">
+            <h3>Tic Tac Toe</h3>
+            <button class="play-button" data-game="chess" onclick="window.location.href='ticTacToe.html'">Play Now</button>
+          </div>
+          <div class="game-item" onclick="showDetails('game3')">
+            <img src="https://cdn.dribbble.com/users/220497/screenshots/9446342/media/1f5802a4c70400d405d559a236a7e396.png?compress=1&resize=400x300&vertical=top" alt="Puzzle">
+            <h3>Sudoku</h3>
+            <button class="play-button" data-game="puzzle" onclick="window.location.href='sudoku.html'">Play Now</button>
+          </div>
+          <div class="game-item">
+            <img src="https://www.grubiks.com/images/puzzles/16/small.png" alt="Battleship">
+            <h3>Rubik's Cube</h3>
+            <button class="play-button" data-game="battleship" onclick="window.location.href='https://bsehovac.github.io/the-cube/'">Play Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  </body>
+</html>
